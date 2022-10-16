@@ -3,7 +3,7 @@ from email.message import EmailMessage
 from my_inputs import talk, take_command
 from my_send_email import send_email
 email_list = {
-    'mother': 'moumita.deb.choudhury@gmail.com',
+    'mother': 'enter your mom\'s mail id',
 }
 def get_email_info():
     talk('To Whom you want to send email')
